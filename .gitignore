@@ -1,0 +1,26 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+env/
+*.sqlite3
+*.log
+local_settings.py
+.env
+
+# Django collected static / media (if used)
+staticfiles/
+media/
+
+# Node / Vite / React
+node_modules/
+dist/
+.vite/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
