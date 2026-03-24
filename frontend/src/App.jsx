@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
-const BASE_URL = "https://drf-crud-fq6y.onrender.com/api/grocery";
+const BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api/grocery";
 
 function App() {
   const [items, setItems] = useState([]);

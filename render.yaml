@@ -8,4 +8,12 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.12
-
+  - type: static
+    name: grocery-bud-frontend
+    env: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://grocery-bud-backend.onrender.com/api/grocery
