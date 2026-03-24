@@ -30,6 +30,7 @@ ALLOWED_HOSTS = ["localhost", "127.0.0.1", ".onrender.com"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "https://chimerical-naiad-66a275.netlify.app",
+    "https://grocery-bud-frontend.onrender.com",
 ]
 
 
